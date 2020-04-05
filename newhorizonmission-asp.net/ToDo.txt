@@ -1,0 +1,4 @@
+﻿Remove top horizontal rule on all pages with images on sizes larger than smallest
+Clean up fun stuff
+final countdown link
+fix icon
