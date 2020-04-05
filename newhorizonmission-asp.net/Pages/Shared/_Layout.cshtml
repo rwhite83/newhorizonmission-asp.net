@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/navbar.css" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-xl navbar-light ">
+        <nav class="navbar navbar-expand-xl navbar-light w3-animate-left">
                 <a class="navbar-brand" asp-area="" asp-page="/Index">W. Ross White</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                         aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,8 +27,8 @@
                                 <a class="dropdown-item text-center" asp-area="" asp-page="/AboutRoss/Writer">Ross as Writer</a>
                                 <a class="dropdown-item text-center" asp-area="" asp-page="/AboutRoss/Developer">Ross as Developer</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item text-center" href="/content/about-ross/contact-ross.html">Contact Ross</a>
-                                <a class="dropdown-item text-center" href="/content/about-ross/support-ross.html">Support Ross</a>
+                                <a class="dropdown-item text-center" asp-area="" asp-page="/AboutRoss/Contact">Contact Ross</a>
+                                <a class="dropdown-item text-center" asp-area="" asp-page="/AboutRoss/Support">Support Ross</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown justify-content-center">
@@ -36,16 +37,16 @@
                                 New Horizons
                             </a>
                             <div class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="/content/new-horizons/about-new-horizons.html">About New Horizons</a>
-                                <a class="dropdown-item" href="/content/new-horizons/read-new-horizons.html">Read New Horizons</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/About">About New Horizons</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/Read">Read New Horizons</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="/content/new-horizons/01-launch.html">Book One: Launch</a>
-                                <a class="dropdown-item" href="/content/new-horizons/02-midway.html">Book Two: Midway</a>
-                                <a class="dropdown-item" href="/content/new-horizons/03-arrival.html">Book Three: Arrival</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/Launch">Book One: Launch</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/Midway">Book Two: Midway</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/Arrival">Book Three: Arrival</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="/content/new-horizons/04-reunion.html">Book Four: Reunion</a>
-                                <a class="dropdown-item" href="/content/new-horizons/05-contact.html">Book Five: Contact</a>
-                                <a class="dropdown-item" href="/content/new-horizons/06-evolution.html">Book Six: Evolution</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/Reunion">Book Four: Reunion</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/Contact">Book Five: Contact</a>
+                                <a class="dropdown-item" asp-area="" asp-page="/NewHorizons/Evolution">Book Six: Evolution</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
